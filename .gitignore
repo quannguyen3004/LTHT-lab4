@@ -1,0 +1,35 @@
+﻿# .gitignore for .NET projects
+# Build folders
+bin/
+obj/
+
+# Visual Studio and editors
+.vs/
+.vscode/
+*.user
+*.suo
+
+# Build outputs
+*.exe
+*.dll
+*.pdb
+*.runtimeconfig.json
+*.deps.json
+
+# Logs
+*.log
+app_log.txt
+
+# Secret files
+secret_data.txt
+secret_data.enc
+secret_data.enc.gz
+
+# Temporary
+*.tmp
+*.bak
+*.cache
+
+# Packages
+*.nupkg
+packages/
